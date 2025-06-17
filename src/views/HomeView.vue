@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import ImageAnnotator from '@/components/ImageAnnotator.vue'
+</script>
 
 <template>
   <div>
-    <h1>Home</h1>
+    <ImageAnnotator />
   </div>
 </template>
